@@ -608,7 +608,13 @@
         </p>
         <form class="footer-form">
           <label for="user-tel"></label>
-          <input type="tel" id="user-tel" name="tel" placeholder="Enter your phone number" class="footer-form-input" />
+          <div class="footer-form-wrap">
+            <input type="tel" id="user-tel" name="tel" placeholder="Enter your phone number"
+              class="footer-form-input" />
+            <svg width="18" height="28" viewBox="0 0 18 28" class="footer-icon">
+              <use href="./images/icons.svg#icon-mobile-screen" />
+            </svg>
+          </div>
           <button type="submit" class="footer-btn">Sign up Now</button>
         </form>
       </div>
