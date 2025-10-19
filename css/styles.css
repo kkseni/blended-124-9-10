@@ -174,12 +174,35 @@ img {
 
 .watch-btn {
     background: transparent;
-    width: 164px;
-    height: 23px;
+    width: 180px;
+    height: 53px;
     font-weight: 600;
     text-decoration: underline;
     text-decoration-skip-ink: none;
     color: #02897a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-icon {
+    border-radius: 2px;
+    fill: #02897a;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1)
+}
+
+.watch-btn:hover,
+.watch-btn:focus {
+    background-color: #02897a;
+    color: #fff;
+    transform: scale(1.15);
+}
+
+.watch-btn:hover .hero-icon,
+.watch-btn:focus .hero-icon {
+    fill: #fff;
 }
 
 /* #endregion hero*/
