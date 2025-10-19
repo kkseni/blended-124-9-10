@@ -239,6 +239,9 @@ img {
     border-radius: 19px;
     width: 54px;
     height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .green {
@@ -255,6 +258,10 @@ img {
 
 .red {
     background: #f03e3d;
+}
+
+.specifically-icon {
+    fill: #fff;
 }
 
 .specifically-item-title {
